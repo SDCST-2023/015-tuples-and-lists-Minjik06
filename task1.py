@@ -23,5 +23,6 @@ The animal at that index is Dog
 """
 
 
-
-animals =
+animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
+a=int(input("Enter the integer number 0~4: "))
+print("The animal at that index is", animals[a])

@@ -25,4 +25,16 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+a=str(input("Enter a word from the list: "))
+k=0
+for i in range(len(fruit)):
+    if fruit[i]==a:
+        fruit.pop(fruit[i])
+    print(fruit)
+    if fruit[i]!=a:
+        fruit.append(a)
+    while k<8:
+        fruit.pop(fruit(len-1))
+print(fruit)
+
 
