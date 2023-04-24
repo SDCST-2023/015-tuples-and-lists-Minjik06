@@ -23,5 +23,14 @@ Enter an integer:-1
 
 The largest number you entered is 92
 """
-
+ran=[]
+for i in range(10):
+    intNum=int(input("Enter an integer"))
+    ran.append(intNum)
+    if intNum>-1:
+        continue
+    elif intNum<=-1:
+        break
+ran.sort()
+print(ran[-1])
 

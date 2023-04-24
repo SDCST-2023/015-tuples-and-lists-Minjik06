@@ -19,3 +19,10 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+list1=['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+a=str(input("Choose a person from the list to replace: "))
+b=str(input("Enter the replacement: "))
+for i in range(len(list1)):
+    if list1[i]==a:
+        list1[i]=b
+print(list1)
